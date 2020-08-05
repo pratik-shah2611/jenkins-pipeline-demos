@@ -1,5 +1,5 @@
 pipeline {
-   agent gitdemo
+   agent { label 'gitdemo' }
    
    environment {
        DEMO='1.3'
