@@ -36,7 +36,9 @@ pipeline {
          
       }
       failure {
-         sh echo "Building release ${RELEASE} with log level ${LOG_LEVEL} FAILED"
+         sh '''
+         echo "Building release ${RELEASE} with log level ${LOG_LEVEL} FAILED"
+         '''
       }
    }
 }
