@@ -1,5 +1,5 @@
 pipeline {
-   agent any
+   agent gitdemo
    
    environment {
        DEMO='1.3'
